@@ -5,12 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisualAcademy.Desktop"
         mc:Ignorable="d"
-        Title="MainWindow - VisualAcademy" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="9*"/>
-        </Grid.ColumnDefinitions>
-
-    </Grid>
+        Title="MainWindow - VisualAcademy" Height="300" Width="800" FontSize="30">
+    <StackPanel>
+        <Label>Instructor Manager</Label>
+        <Calendar />
+    </StackPanel>
 </Window>

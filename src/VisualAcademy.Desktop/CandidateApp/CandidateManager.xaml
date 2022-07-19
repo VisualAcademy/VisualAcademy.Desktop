@@ -8,10 +8,18 @@
         Title="CandidateManager" Height="450" Width="800" FontSize="30">
     <Grid>
         <Button 
-            x:Name="btnAddCandidate"
-            Content="후보자 추가" Margin="20" HorizontalAlignment="Left"
+            x:Name="btnAddCandidate" Width="100"
+            Margin="20" HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Click="btnAddCandidate_Click"
-                ></Button>
+                >
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/plus-2x.png" Height="16" Width="16"
+                           Margin="5 0 5 0"></Image>
+                    <TextBlock Text="Add"></TextBlock>
+                </StackPanel>
+            </Button.Content>
+        </Button>
     </Grid>
 </Window>

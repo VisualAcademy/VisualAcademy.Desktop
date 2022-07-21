@@ -1,0 +1,18 @@
+﻿<Window x:Class="VisualAcademy.Desktop.Rias.FrmCanvasDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualAcademy.Desktop.Rias"
+        mc:Ignorable="d"
+        Title="FrmCanvasDemo" Height="450" Width="800">
+    <Canvas x:Name="silCanvas" Background="Silver"
+            Width="200" Height="200">
+        <Rectangle Canvas.Left="0" Canvas.Top="0"
+            Fill="Red" Width="50" Height="50" />
+        <Rectangle Canvas.Left="20" Canvas.Top="20"
+            Fill="Green" Width="50" Height="50" />
+        <Rectangle Canvas.Left="40" Canvas.Top="40"
+            Fill="Blue" Width="50" Height="50" />
+    </Canvas>
+</Window>

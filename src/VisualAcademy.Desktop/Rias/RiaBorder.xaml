@@ -1,0 +1,17 @@
+﻿<Window x:Class="VisualAcademy.Desktop.Rias.RiaBorder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualAcademy.Desktop.Rias"
+        mc:Ignorable="d"
+        Title="RiaBorder" Height="450" Width="800">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Border BorderBrush="Blue" BorderThickness="10" CornerRadius="30">
+            <StackPanel Background="Yellow">
+                <Button Content="버튼 1" FontSize="30"></Button>
+                <Button Content="버튼 2" FontSize="30"></Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

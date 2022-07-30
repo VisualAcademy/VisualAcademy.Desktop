@@ -7,9 +7,6 @@ namespace VisualAcademy.Desktop.Demos
     /// </summary>
     public partial class FrmRadioButtonStart : Window
     {
-        public FrmRadioButtonStart()
-        {
-            InitializeComponent();
-        }
+        public FrmRadioButtonStart() => InitializeComponent();
     }
 }

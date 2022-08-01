@@ -7,8 +7,5 @@ namespace VisualAcademy.Desktop.Demos;
 /// </summary>
 public partial class FrmListBox : Window
 {
-    public FrmListBox()
-    {
-        InitializeComponent();
-    }
+    public FrmListBox() => InitializeComponent();
 }

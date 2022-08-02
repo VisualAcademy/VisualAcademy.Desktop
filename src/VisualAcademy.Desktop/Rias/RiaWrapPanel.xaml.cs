@@ -1,15 +1,14 @@
 ﻿using System.Windows;
 
-namespace VisualAcademy.Desktop.Rias
+namespace VisualAcademy.Desktop.Rias;
+
+/// <summary>
+/// Interaction logic for RiaWrapPanel.xaml
+/// </summary>
+public partial class RiaWrapPanel : Window
 {
-    /// <summary>
-    /// Interaction logic for RiaWrapPanel.xaml
-    /// </summary>
-    public partial class RiaWrapPanel : Window
+    public RiaWrapPanel()
     {
-        public RiaWrapPanel()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

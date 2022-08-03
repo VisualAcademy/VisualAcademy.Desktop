@@ -7,8 +7,5 @@ namespace VisualAcademy.Desktop.Rias;
 /// </summary>
 public partial class RiaWrapPanel : Window
 {
-    public RiaWrapPanel()
-    {
-        InitializeComponent();
-    }
+    public RiaWrapPanel() => InitializeComponent();
 }
